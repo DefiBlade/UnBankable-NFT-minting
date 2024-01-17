@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  background-color: black;  
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Alienwars wmr6' !important;
+}
+
+button {
+  font-family: 'Alienwars wmr6' !important;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: black;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mintBtn {
+  position: absolute;
+  transform: translate3d(-50%, -50%, 0);
+  left: 50%;
+  top: 50%;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: white;
+  font-size: 40px;
+  line-height: 90%;
+  font-weight: 900;
+}
+
+.mintBtn:hover {
+  background-color: red;
+  color: white;
+}
+
+.description {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  line-height: 90%;
+  font-weight: 900;
+  left: 20px;
+  bottom: 20px;
+}
+
+.notification-container {
+  width: 600px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .notification-container {
+      width: 80%;
+      font-size: 15px;
+  }
+}
